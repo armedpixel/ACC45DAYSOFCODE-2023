@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+	int t , x;
+	printf("Enter no. of testcases: ");
+	scanf("%d",&t);
+	for(int i=0,l;i<t;i++){
+	    printf("Enter amount of water chef drank(in ml):");
+	    scanf("%d",&x);
+	    if(x>=2000){
+	        printf("YES\n");
+	    }else{
+	        printf("NO\n");
+	    }
+	}
+	return 0;
+}
+
